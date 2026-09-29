@@ -8,52 +8,134 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
-  <title>Emociona | Aprende a entender lo que sientes</title>
+  <title>Emociona | Aprender a entenderte también es crecer</title>
 </head>
-<body>
-  <header class="site-header">
+<body class="home-v3">
+  <header class="site-header home-header">
     <a class="brand" href="index.html" aria-label="Emociona, inicio">
       <span class="brand-mark">e</span><span>emociona</span>
     </a>
     <nav class="desktop-nav">
-      <a href="etapas.html" >Por edades</a>
-      <a href="habilidades.html" >Habilidades</a>
-      <a href="situaciones.html" >Situaciones</a>
-      <a href="adultos.html" >Para adultos</a>
+      <a href="#proposito">Propósito</a>
+      <a href="#aprenderas">Qué aprenderás</a>
+      <a href="#crecer">Cómo crecerás</a>
+      <a href="adultos.html">Para adultos</a>
     </nav>
-    <a class="ghost-btn small" href="recorrido.html">Mi recorrido</a>
+    <a class="ghost-btn small" href="etapas.html">Comenzar</a>
   </header>
+
   <main>
-    <section class="hero">
-      <div class="hero-copy">
-        <div class="eyebrow">EDUCACIÓN SOCIOEMOCIONAL · 4 A 18 AÑOS</div>
-        <h1>Entender lo que sientes también se <span>aprende.</span></h1>
-        <p class="hero-lead">Un espacio para conocerte, comprender tus emociones, aprender a regularlas y construir mejores relaciones, paso a paso y según tu etapa de desarrollo.</p>
+    <section class="immersive-hero">
+      <img class="immersive-hero-image" src="assets/hero-fortaleza.png" alt="Niño observando una gran sombra de superhéroe que simboliza su fortaleza interior" />
+      <div class="immersive-overlay"></div>
+      <div class="immersive-content">
+        <div class="eyebrow light-eyebrow">UN RECORRIDO PARA CONOCERTE, COMPRENDERTE Y CRECER</div>
+        <h1>Aprender a entenderte también es una forma de <span>crecer.</span></h1>
+        <p>Descubre qué ocurre dentro de ti, aprende a reconocer tus emociones, desarrolla herramientas para afrontar situaciones difíciles y fortalece la manera en que te relacionas contigo mismo y con los demás.</p>
         <div class="hero-actions">
-          <a class="primary-btn" href="etapas.html">Comenzar mi recorrido <span>→</span></a>
-          <a class="secondary-btn" href="situaciones.html">Quiero ayuda con algo</a>
+          <a class="primary-btn home-primary" href="etapas.html">Comenzar mi recorrido <span>→</span></a>
+          <a class="secondary-btn glass-btn" href="#proposito">Quiero saber más</a>
         </div>
-        <div class="trust-row"><span>Basado en marcos y fuentes reales</span><span>•</span><span>CASEL · UNICEF · OMS · Harvard · Gross</span></div>
+        <div class="hero-manifesto">Sentir miedo no te hace débil. Comprender lo que sientes puede ayudarte a descubrir tus recursos.</div>
       </div>
-      <div class="hero-visual" aria-hidden="true">
-        <div class="orb orb-one"></div><div class="orb orb-two"></div>
-        <div class="emotion-card card-main"><span class="mini-label">HOY ME SIENTO...</span><div class="emoji-face">☺</div><strong>tranquilo</strong><p>Puedo reconocer lo que pasa dentro de mí.</p></div>
-        <div class="floating-chip chip-one">💛 Autoestima</div><div class="floating-chip chip-two">🌿 Calma</div><div class="floating-chip chip-three">🤝 Empatía</div>
+      <a href="#proposito" class="scroll-cue" aria-label="Bajar al contenido">↓</a>
+    </section>
+
+    <section class="home-intro" id="proposito">
+      <div class="intro-copy">
+        <span class="section-kicker">NUESTRO PROPÓSITO</span>
+        <h2>Crecer no es solo hacerse más grande.</h2>
+        <p class="intro-lead">También es aprender quién eres, comprender lo que sientes, afrontar dificultades, tomar decisiones y construir relaciones cada vez más saludables.</p>
+        <p>Esta plataforma ha sido creada para acompañar a niñas, niños y adolescentes en ese proceso. No buscamos enseñar a “dejar de sentir”. Buscamos que cada persona pueda reconocer lo que ocurre dentro de sí, comprenderlo y adquirir herramientas que pueda utilizar en la vida cotidiana.</p>
+      </div>
+      <div class="intro-image-wrap">
+        <img src="assets/comunidad-emocional.png" alt="Grupo diverso de niños y adolescentes rodeados de símbolos de emociones, empatía y crecimiento" />
       </div>
     </section>
-    <section class="section soft">
-      <div class="section-heading centered"><span class="section-kicker">TU RECORRIDO</span><h2>Un camino, página por página.</h2><p>Cada paso del recorrido tiene su propio espacio para que puedas avanzar sin perderte.</p></div>
-      <div class="development-grid">
-        <article class="dev-card"><span class="dev-icon">1</span><h3>Elige tu etapa</h3><p>Adaptamos el lenguaje y los aprendizajes a tu edad.</p><a href="etapas.html">Comenzar →</a></article>
-        <article class="dev-card"><span class="dev-icon">2</span><h3>Comprende tu desarrollo</h3><p>Explora cuerpo, pensamiento, emociones y relaciones.</p><a href="desarrollo.html">Explorar →</a></article>
-        <article class="dev-card"><span class="dev-icon">3</span><h3>Descubre habilidades</h3><p>Conoce las áreas que puedes entrenar y fortalecer.</p><a href="habilidades.html">Ver mapa →</a></article>
-        <article class="dev-card"><span class="dev-icon">4</span><h3>Aprende practicando</h3><p>Entra a módulos interactivos con situaciones y ejercicios.</p><a href="emociones.html">Ir al primer módulo →</a></article>
+
+    <section class="myths-section">
+      <div class="section-heading centered myths-heading">
+        <span class="section-kicker">QUIZÁ LO ESCUCHASTE ALGUNA VEZ</span>
+        <h2>Nos enseñaron muchas frases sobre sentir.<br>Ahora podemos mirarlas de otra manera.</h2>
       </div>
+      <div class="myth-grid">
+        <article class="myth-card"><span>“No llores.”</span><p>Llorar puede ser una forma de expresar una emoción. El objetivo no es prohibirla, sino aprender a reconocer qué está ocurriendo.</p></article>
+        <article class="myth-card"><span>“No tengas miedo.”</span><p>El miedo cumple una función. Podemos aprender a identificarlo y elegir cómo responder cuando aparece.</p></article>
+        <article class="myth-card"><span>“No te enojes.”</span><p>Sentir enojo y actuar impulsivamente no son lo mismo. Podemos trabajar sobre la manera de responder.</p></article>
+        <article class="myth-card"><span>“Tienes que ser fuerte.”</span><p>La fortaleza emocional no significa no sentir. También implica reconocer límites, pedir ayuda y desarrollar recursos.</p></article>
+      </div>
+      <p class="myths-foot">Las frases anteriores son ejemplos pedagógicos de mensajes cotidianos; no constituyen diagnósticos ni reglas universales.</p>
+    </section>
+
+    <section class="learning-section" id="aprenderas">
+      <div class="learning-visual">
+        <img src="assets/camino-crecimiento.png" alt="Niños avanzando por un camino simbólico de emociones, empatía, pensamiento y crecimiento personal" />
+      </div>
+      <div class="learning-copy">
+        <span class="section-kicker">¿QUÉ APRENDERÁS?</span>
+        <h2>Un camino de habilidades para toda la vida.</h2>
+        <div class="learning-list">
+          <article><b>01</b><div><h3>Conocerme</h3><p>Explorar autoconcepto, fortalezas, necesidades, valores y autoestima.</p></div></article>
+          <article><b>02</b><div><h3>Reconocer mis emociones</h3><p>Identificar lo que siento, ampliar vocabulario emocional y observar señales del cuerpo.</p></div></article>
+          <article><b>03</b><div><h3>Regular lo que siento</h3><p>Aprender recursos para afrontar frustración, miedo, enojo y otras experiencias emocionales.</p></div></article>
+          <article><b>04</b><div><h3>Comprender a los demás</h3><p>Practicar empatía, escucha y toma de perspectiva.</p></div></article>
+          <article><b>05</b><div><h3>Relacionarme mejor</h3><p>Desarrollar comunicación, asertividad, límites y resolución de conflictos.</p></div></article>
+          <article><b>06</b><div><h3>Construir bienestar</h3><p>Fortalecer hábitos, afrontamiento, metas y recursos personales.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="growth-section" id="crecer">
+      <div class="growth-copy">
+        <span class="section-kicker section-kicker-light">CRECER COMO PERSONA</span>
+        <h2>No se trata de convertirte en alguien que nunca tiene miedo, tristeza o enojo.</h2>
+        <p>Se trata de desarrollar recursos para comprender lo que ocurre y responder de maneras cada vez más conscientes y saludables.</p>
+        <div class="growth-path">
+          <span>Me conozco</span><i>→</i><span>Reconozco lo que siento</span><i>→</i><span>Aprendo a regularme</span><i>→</i><span>Comprendo a otros</span><i>→</i><span>Tomo decisiones</span><i>→</i><span>Construyo relaciones</span>
+        </div>
+      </div>
+      <div class="growth-image"><img src="assets/transformacion-emocional.png" alt="Niña en un momento difícil junto a una representación luminosa de crecimiento y esperanza" /></div>
+    </section>
+
+    <section class="meaning-section">
+      <div class="section-heading centered">
+        <span class="section-kicker">UNA IDEA IMPORTANTE</span>
+        <h2>Desarrollar habilidades emocionales no significa ser perfecto.</h2>
+      </div>
+      <div class="meaning-grid">
+        <div class="meaning-card no-card">
+          <span class="meaning-label">NO SIGNIFICA</span>
+          <ul><li>Nunca sentir miedo</li><li>Nunca enojarse</li><li>Estar siempre feliz</li><li>No equivocarse</li><li>Resolver todo sin ayuda</li></ul>
+        </div>
+        <div class="meaning-card yes-card">
+          <span class="meaning-label">SIGNIFICA APRENDER A</span>
+          <ul><li>Reconocer lo que siento</li><li>Comprender qué está ocurriendo</li><li>Detenerme antes de reaccionar</li><li>Expresar lo que necesito</li><li>Buscar soluciones y pedir ayuda</li></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="portal-section">
+      <img src="assets/portal-interior.png" alt="Niña abriendo un portal simbólico hacia su mundo interior y sus emociones" />
+      <div class="portal-shade"></div>
+      <div class="portal-copy">
+        <span class="section-kicker light-eyebrow">TU RECORRIDO COMIENZA CONTIGO</span>
+        <h2>Antes de aprender a manejar lo que sientes, primero vamos a descubrir cómo estás creciendo.</h2>
+        <p>Cada etapa del desarrollo trae cambios distintos. Por eso el siguiente paso será elegir tu edad y comenzar un recorrido adaptado a tu momento de vida.</p>
+        <a class="primary-btn home-primary" href="etapas.html">Descubrir mi etapa <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="home-evidence">
+      <span class="section-kicker">CONTENIDO CON FUNDAMENTO</span>
+      <h2>Aprender de forma sencilla no significa enseñar sin sustento.</h2>
+      <p>Los conceptos, modelos y herramientas educativas de esta plataforma se desarrollan a partir de autores, marcos y fuentes reales. Las historias, ilustraciones y ejemplos sirven para traducir ese conocimiento a experiencias comprensibles según la edad.</p>
+      <a href="fuentes.html">Conocer las fuentes y criterios →</a>
     </section>
   </main>
+
   <footer>
     <a class="brand" href="index.html"><span class="brand-mark">e</span><span>emociona</span></a>
-    <p>Aprender sobre emociones también se aprende practicando.</p>
+    <p>Conocerte, comprenderte y crecer.</p>
     <a href="fuentes.html">Fuentes y criterios</a>
   </footer>
   <script src="script.js"></script>
