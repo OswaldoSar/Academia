@@ -1,25 +1,19 @@
-# Emociona — prototipo inicial
+# Emociona · sitio multipágina
 
-Prototipo estático de una plataforma educativa de habilidades socioemocionales para niñas, niños y adolescentes.
+Primera versión navegable de una plataforma de educación socioemocional para niñas, niños y adolescentes.
 
-## Ejecutar
+## Estructura principal
+- `index.html` — portada
+- `etapas.html` — selección por edades
+- `desarrollo.html` — mapa del desarrollo
+- `habilidades.html` — mapa de habilidades
+- `emociones.html` — primer módulo interactivo
+- `funcion-emociones.html` — función de las emociones
+- `intensidad-emocional.html` — siguiente módulo
+- páginas independientes para desarrollo físico, cognitivo, emocional y social
+- páginas independientes para conocerme, regulación, empatía, relaciones, bienestar, adultos y fuentes
 
-No requiere instalación. Abre `index.html` en el navegador o publícalo con GitHub Pages.
+## GitHub Pages
+Sube todos los archivos manteniendo `index.html` en la raíz. Luego activa Settings → Pages → Deploy from a branch → `main` / root.
 
-## Publicar en GitHub Pages
-
-1. Crea un repositorio nuevo en GitHub.
-2. Sube `index.html`, `styles.css` y `script.js` a la raíz.
-3. Ve a **Settings → Pages**.
-4. En **Build and deployment**, selecciona **Deploy from a branch**.
-5. Selecciona `main` y `/ (root)` y guarda.
-
-## Estructura científica inicial
-
-- CASEL: marco de aprendizaje socioemocional (autoconciencia, autogestión, conciencia social, habilidades de relación y toma responsable de decisiones).
-- James J. Gross: regulación emocional y modelo de proceso.
-- Center on the Developing Child at Harvard University: funciones ejecutivas y autorregulación.
-- UNICEF: recursos para habilidades socioemocionales en infancia y adolescencia.
-- OMS: desarrollo y salud mental en adolescencia.
-
-**Nota:** las historias, ejemplos y dinámicas del sitio son adaptaciones pedagógicas. No se presentan como teorías científicas. La plataforma es educativa y no sustituye evaluación, diagnóstico o tratamiento psicológico.
+La web usa enlaces HTML reales entre páginas; no depende de desplazarse a secciones de una única portada.

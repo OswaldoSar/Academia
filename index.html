@@ -4,216 +4,58 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Plataforma educativa de habilidades socioemocionales para niñas, niños y adolescentes." />
-  <title>Emociona | Aprende a entender lo que sientes</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
+  <title>Emociona | Aprende a entender lo que sientes</title>
 </head>
 <body>
   <header class="site-header">
-    <a class="brand" href="#inicio" aria-label="Emociona, inicio">
-      <span class="brand-mark">e</span>
-      <span>emociona</span>
+    <a class="brand" href="index.html" aria-label="Emociona, inicio">
+      <span class="brand-mark">e</span><span>emociona</span>
     </a>
     <nav class="desktop-nav">
-      <a href="#edades">Por edades</a>
-      <a href="#habilidades">Habilidades</a>
-      <a href="#situaciones">Situaciones</a>
-      <a href="#adultos">Para adultos</a>
+      <a href="etapas.html" >Por edades</a>
+      <a href="habilidades.html" >Habilidades</a>
+      <a href="situaciones.html" >Situaciones</a>
+      <a href="adultos.html" >Para adultos</a>
     </nav>
-    <button class="ghost-btn small" data-open-path>Mi recorrido</button>
+    <a class="ghost-btn small" href="recorrido.html">Mi recorrido</a>
   </header>
-
   <main>
-    <section class="hero" id="inicio">
+    <section class="hero">
       <div class="hero-copy">
         <div class="eyebrow">EDUCACIÓN SOCIOEMOCIONAL · 4 A 18 AÑOS</div>
         <h1>Entender lo que sientes también se <span>aprende.</span></h1>
         <p class="hero-lead">Un espacio para conocerte, comprender tus emociones, aprender a regularlas y construir mejores relaciones, paso a paso y según tu etapa de desarrollo.</p>
         <div class="hero-actions">
-          <button class="primary-btn" data-scroll="#edades">Comenzar mi recorrido <span>→</span></button>
-          <button class="secondary-btn" data-scroll="#situaciones">Quiero ayuda con algo</button>
+          <a class="primary-btn" href="etapas.html">Comenzar mi recorrido <span>→</span></a>
+          <a class="secondary-btn" href="situaciones.html">Quiero ayuda con algo</a>
         </div>
-        <div class="trust-row">
-          <span>Basado en marcos y fuentes reales</span>
-          <span>•</span>
-          <span>CASEL · UNICEF · OMS · Harvard · Gross</span>
-        </div>
+        <div class="trust-row"><span>Basado en marcos y fuentes reales</span><span>•</span><span>CASEL · UNICEF · OMS · Harvard · Gross</span></div>
       </div>
       <div class="hero-visual" aria-hidden="true">
-        <div class="orb orb-one"></div>
-        <div class="orb orb-two"></div>
-        <div class="emotion-card card-main">
-          <span class="mini-label">HOY ME SIENTO...</span>
-          <div class="emoji-face">☺</div>
-          <strong>tranquilo</strong>
-          <p>Puedo reconocer lo que pasa dentro de mí.</p>
-        </div>
-        <div class="floating-chip chip-one">💛 Autoestima</div>
-        <div class="floating-chip chip-two">🌿 Calma</div>
-        <div class="floating-chip chip-three">🤝 Empatía</div>
+        <div class="orb orb-one"></div><div class="orb orb-two"></div>
+        <div class="emotion-card card-main"><span class="mini-label">HOY ME SIENTO...</span><div class="emoji-face">☺</div><strong>tranquilo</strong><p>Puedo reconocer lo que pasa dentro de mí.</p></div>
+        <div class="floating-chip chip-one">💛 Autoestima</div><div class="floating-chip chip-two">🌿 Calma</div><div class="floating-chip chip-three">🤝 Empatía</div>
       </div>
     </section>
-
-    <section class="section soft" id="edades">
-      <div class="section-heading centered">
-        <span class="section-kicker">TU ETAPA</span>
-        <h2>¿En qué momento estás creciendo?</h2>
-        <p>Cada etapa trae nuevas capacidades, retos y preguntas. Elige una edad para adaptar el recorrido.</p>
-      </div>
-      <div class="age-grid">
-        <button class="age-card" data-age="4-6">
-          <span class="age-number">4–6</span><span class="age-years">años</span>
-          <strong>Descubro lo que siento</strong>
-          <p>Emociones básicas, expresión, convivencia y autonomía inicial.</p>
-          <span class="card-link">Explorar →</span>
-        </button>
-        <button class="age-card" data-age="7-9">
-          <span class="age-number">7–9</span><span class="age-years">años</span>
-          <strong>Aprendo a entenderme</strong>
-          <p>Autoestima, frustración, amistad, empatía y solución de conflictos.</p>
-          <span class="card-link">Explorar →</span>
-        </button>
-        <button class="age-card featured" data-age="10-12">
-          <span class="badge">Etapa de cambios</span>
-          <span class="age-number">10–12</span><span class="age-years">años</span>
-          <strong>Comprendo mis cambios</strong>
-          <p>Autoconcepto, pertenencia, regulación emocional y comunicación.</p>
-          <span class="card-link">Explorar →</span>
-        </button>
-        <button class="age-card" data-age="13-15">
-          <span class="age-number">13–15</span><span class="age-years">años</span>
-          <strong>Quiero comprenderme</strong>
-          <p>Identidad, emociones intensas, presión social y decisiones.</p>
-          <span class="card-link">Explorar →</span>
-        </button>
-        <button class="age-card" data-age="16-18">
-          <span class="age-number">16–18</span><span class="age-years">años</span>
-          <strong>Construyo mi camino</strong>
-          <p>Autonomía, relaciones, estrés, metas, propósito y bienestar.</p>
-          <span class="card-link">Explorar →</span>
-        </button>
-      </div>
-    </section>
-
-    <section class="section" id="desarrollo">
-      <div class="split-heading">
-        <div>
-          <span class="section-kicker">CONOCE TU DESARROLLO</span>
-          <h2>Crecer cambia tu cuerpo, tu mente y tus relaciones.</h2>
-        </div>
-        <p>El desarrollo no ocurre exactamente igual ni al mismo ritmo en todas las personas. Aquí usamos rangos orientativos y explicaciones educativas, no diagnósticos.</p>
-      </div>
+    <section class="section soft">
+      <div class="section-heading centered"><span class="section-kicker">TU RECORRIDO</span><h2>Un camino, página por página.</h2><p>Cada paso del recorrido tiene su propio espacio para que puedas avanzar sin perderte.</p></div>
       <div class="development-grid">
-        <article class="dev-card"><span class="dev-icon">◌</span><h3>Cuerpo</h3><p>Crecimiento, pubertad, sueño, energía e imagen corporal.</p><button data-topic="cuerpo">Conocer más</button></article>
-        <article class="dev-card"><span class="dev-icon">✦</span><h3>Pensamiento</h3><p>Atención, planificación, reflexión y toma de perspectiva.</p><button data-topic="pensamiento">Conocer más</button></article>
-        <article class="dev-card"><span class="dev-icon">♡</span><h3>Emociones</h3><p>Reconocer, comprender y aprender a manejar lo que sientes.</p><button data-topic="emociones">Conocer más</button></article>
-        <article class="dev-card"><span class="dev-icon">◎</span><h3>Relaciones</h3><p>Amistad, pertenencia, empatía, comunicación y límites.</p><button data-topic="relaciones">Conocer más</button></article>
+        <article class="dev-card"><span class="dev-icon">1</span><h3>Elige tu etapa</h3><p>Adaptamos el lenguaje y los aprendizajes a tu edad.</p><a href="etapas.html">Comenzar →</a></article>
+        <article class="dev-card"><span class="dev-icon">2</span><h3>Comprende tu desarrollo</h3><p>Explora cuerpo, pensamiento, emociones y relaciones.</p><a href="desarrollo.html">Explorar →</a></article>
+        <article class="dev-card"><span class="dev-icon">3</span><h3>Descubre habilidades</h3><p>Conoce las áreas que puedes entrenar y fortalecer.</p><a href="habilidades.html">Ver mapa →</a></article>
+        <article class="dev-card"><span class="dev-icon">4</span><h3>Aprende practicando</h3><p>Entra a módulos interactivos con situaciones y ejercicios.</p><a href="emociones.html">Ir al primer módulo →</a></article>
       </div>
-    </section>
-
-    <section class="section dark" id="habilidades">
-      <div class="section-heading centered light">
-        <span class="section-kicker">TU MAPA DE HABILIDADES</span>
-        <h2>Seis caminos para crecer por dentro.</h2>
-        <p>El recorrido integra competencias socioemocionales reconocidas y las traduce a experiencias apropiadas para cada edad.</p>
-      </div>
-      <div class="skills-grid">
-        <article class="skill-card"><span>01</span><h3>Conocerme</h3><p>Emociones, fortalezas, identidad, autoconcepto y autoestima.</p><button data-module="Conocerme">Entrar</button></article>
-        <article class="skill-card"><span>02</span><h3>Reconocer lo que siento</h3><p>Vocabulario emocional, señales corporales e intensidad.</p><button data-module="Reconocer emociones">Entrar</button></article>
-        <article class="skill-card"><span>03</span><h3>Regular mis emociones</h3><p>Pausa, atención, pensamiento, respuesta y manejo del estrés.</p><button data-module="Regulación emocional">Entrar</button></article>
-        <article class="skill-card"><span>04</span><h3>Comprender a otros</h3><p>Perspectiva, empatía, compasión y lectura del contexto.</p><button data-module="Empatía">Entrar</button></article>
-        <article class="skill-card"><span>05</span><h3>Relacionarme mejor</h3><p>Comunicación, escucha, límites, cooperación y conflictos.</p><button data-module="Relaciones">Entrar</button></article>
-        <article class="skill-card"><span>06</span><h3>Construir bienestar</h3><p>Hábitos, metas, motivación, resiliencia y propósito.</p><button data-module="Bienestar">Entrar</button></article>
-      </div>
-    </section>
-
-    <section class="section" id="situaciones">
-      <div class="section-heading centered">
-        <span class="section-kicker">¿QUÉ TE ESTÁ PASANDO HOY?</span>
-        <h2>También puedes empezar por una situación real.</h2>
-        <p>No necesitas saber el nombre de una habilidad. Elige algo que estés viviendo y te mostraremos por dónde comenzar.</p>
-      </div>
-      <div class="situations-wrap">
-        <button class="situation-pill" data-situation="enojo">🔥 Me enojo muy rápido</button>
-        <button class="situation-pill" data-situation="soledad">🌙 Me siento solo</button>
-        <button class="situation-pill" data-situation="miedo">🌧️ Tengo miedo de equivocarme</button>
-        <button class="situation-pill" data-situation="comparacion">🪞 Me comparo con los demás</button>
-        <button class="situation-pill" data-situation="amistad">🫶 Me cuesta hacer amigos</button>
-        <button class="situation-pill" data-situation="expresion">💬 No sé decir lo que siento</button>
-        <button class="situation-pill" data-situation="calma">🌿 Me cuesta calmarme</button>
-      </div>
-      <div class="situation-result" id="situationResult" hidden></div>
-    </section>
-
-    <section class="section lesson-section" id="primer-modulo">
-      <div class="lesson-shell">
-        <aside class="lesson-progress">
-          <span class="section-kicker">PRIMER MÓDULO</span>
-          <h2>Reconocer mis emociones</h2>
-          <ol>
-            <li class="active">Descubro</li>
-            <li>Comprendo</li>
-            <li>Practico</li>
-            <li>Aplico</li>
-            <li>Reflexiono</li>
-          </ol>
-        </aside>
-        <div class="lesson-card">
-          <span class="lesson-tag">1 · DESCUBRO</span>
-          <h3>¿Qué crees que está sintiendo Mateo?</h3>
-          <p>Mateo estaba jugando con sus amigos. De pronto eligieron a otra persona y él quedó fuera. Sintió calor en la cara, apretó los puños y dejó de hablar.</p>
-          <div class="emotion-options">
-            <button data-emotion="alegria">😊 Alegría</button>
-            <button data-emotion="tristeza">😢 Tristeza</button>
-            <button data-emotion="enojo">😠 Enojo</button>
-            <button data-emotion="miedo">😨 Miedo</button>
-          </div>
-          <div class="feedback" id="emotionFeedback">Elige una opción. En una situación real pueden coexistir varias emociones; aquí practicamos identificar pistas.</div>
-          <button class="primary-btn compact" data-next-lesson>Continuar →</button>
-        </div>
-      </div>
-    </section>
-
-    <section class="section adult-section" id="adultos">
-      <div class="adult-card">
-        <div>
-          <span class="section-kicker">PARA QUIENES ACOMPAÑAN</span>
-          <h2>Padres, cuidadores y docentes también tienen una ruta.</h2>
-          <p>Aprende a validar emociones sin reforzar conductas dañinas, acompañar la autorregulación, conversar según la edad y reconocer cuándo una situación requiere apoyo profesional.</p>
-        </div>
-        <button class="secondary-btn" data-module="Ruta para adultos">Explorar ruta para adultos</button>
-      </div>
-    </section>
-
-    <section class="section sources" id="fuentes">
-      <div class="section-heading centered">
-        <span class="section-kicker">TRANSPARENCIA</span>
-        <h2>Lo que enseñamos debe poder verificarse.</h2>
-        <p>Este primer prototipo organiza contenidos a partir de marcos y literatura real. Las actividades e historias son adaptaciones pedagógicas propias, no teorías nuevas.</p>
-      </div>
-      <div class="source-grid">
-        <article><strong>CASEL</strong><p>Marco de cinco competencias de aprendizaje socioemocional.</p></article>
-        <article><strong>James J. Gross</strong><p>Modelo de proceso de regulación emocional.</p></article>
-        <article><strong>Center on the Developing Child · Harvard</strong><p>Funciones ejecutivas y autorregulación desde la infancia a la adolescencia.</p></article>
-        <article><strong>UNICEF / OMS</strong><p>Desarrollo adolescente, bienestar y habilidades socioemocionales.</p></article>
-      </div>
-      <p class="disclaimer"><strong>Importante:</strong> Emociona es una plataforma educativa. No reemplaza evaluación, diagnóstico, tratamiento psicológico ni atención de emergencia.</p>
     </section>
   </main>
-
   <footer>
-    <a class="brand" href="#inicio"><span class="brand-mark">e</span><span>emociona</span></a>
+    <a class="brand" href="index.html"><span class="brand-mark">e</span><span>emociona</span></a>
     <p>Aprender sobre emociones también se aprende practicando.</p>
-    <a href="#fuentes">Fuentes y criterios</a>
+    <a href="fuentes.html">Fuentes y criterios</a>
   </footer>
-
-  <dialog id="modal">
-    <button class="modal-close" data-close-modal aria-label="Cerrar">×</button>
-    <div id="modalContent"></div>
-  </dialog>
-
   <script src="script.js"></script>
 </body>
 </html>
